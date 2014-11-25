@@ -1,0 +1,6 @@
+development:
+  sessions:
+    default:
+      uri: <%= ENV["MONGO_URL"] %>
+  options:
+    raise_not_found_error: false
